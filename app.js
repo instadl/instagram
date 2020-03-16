@@ -1558,7 +1558,7 @@
                             ])
                         }), Te("link", {
                             rel: "manifest",
-                            href: "https://phuongmychi.github.io/manifest.json",
+                            href: "https://instagramvn.github.io/manifest.json",
                             className: h.a.dynamic([
                                 ["2301534346", [o.black, o.white, o.black, o.white, o.gray, o.gray, o.gray]]
                             ])
@@ -1653,7 +1653,7 @@
                                 t = this.props.lng;
                             e.set("lng", t, {
                                 path: "/"
-                            }), "serviceWorker" in navigator && navigator.serviceWorker.register("http://phuongmychi.github.io/sw.js"), window.addEventListener("beforeinstallprompt", (function(e) {
+                            }), "serviceWorker" in navigator && navigator.serviceWorker.register("http://instagramvn.github.io/sw.js"), window.addEventListener("beforeinstallprompt", (function(e) {
                                 e.userChoice.then((function(e) {
                                     var t = e.outcome;
                                     Object(fe.b)("event", t, {

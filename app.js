@@ -1333,7 +1333,7 @@
                             ["4060759386", [n.gray, o.size.regular, o.weight.bold]]
                         ])
                     }, de("a", {
-                        href: "/download-image-instagram.html",
+                        href: "/",
                         className: h.a.dynamic([
                             ["4060759386", [n.gray, o.size.regular, o.weight.bold]]
                         ]) + " logo"
@@ -1415,19 +1415,19 @@
                             ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]]
                         ]) + " navigation"
                     }, Oe("a", {
-                        href: "/download-image-instagram.html",
+                        href: "/",
                         className: h.a.dynamic([
                             ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]]
                         ])
                     }, i("home")), Oe(me.a, {
-                        href: "https://phuongmychi.github.io/privacy.html",
+                        href: "https://instagramvn.github.io/privacy.html",
                     }, Oe("a", {
                       target: "_blank",
                         className: h.a.dynamic([
                             ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]]
                         ])
                     }, i("privacy"))), Oe("a", {
-                        href: "https://phuongmychi.github.io/instagram/term-use-instagram.html",
+                        href: "https://instagramvn.github.io/instagram/term-use-instagram.html",
                         target: "_blank",
                         className: h.a.dynamic([
                             ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]]
@@ -1564,13 +1564,13 @@
                             ])
                         }), Te("link", {
                             rel: "shortcut icon",
-                            href: "/icons/favicon.png",
+                            href: "/libs/favicon.png",
                             className: h.a.dynamic([
                                 ["2301534346", [o.black, o.white, o.black, o.white, o.gray, o.gray, o.gray]]
                             ])
                         }), Te("link", {
                             rel: "apple-touch-icon",
-                            href: "/icons/homescreen-144x144.png",
+                            href: "https://instagramvn.github.io/libs/android-icon-144x144.png",
                             className: h.a.dynamic([
                                 ["2301534346", [o.black, o.white, o.black, o.white, o.gray, o.gray, o.gray]]
                             ])
@@ -1589,21 +1589,21 @@
                             ])
                         }), Te("link", {
                             rel: "alternate",
-                            href: "https://phuongmychi.github.io/",
+                            href: "https://instagramvn.github.io/",
                             hrefLang: "x-default",
                             className: h.a.dynamic([
                                 ["2301534346", [o.black, o.white, o.black, o.white, o.gray, o.gray, o.gray]]
                             ])
                         }), Te("link", {
                             rel: "alternate",
-                            href: "https://phuongmychi.github.io/?hl=en",
+                            href: "https://instagramvn.github.io/?hl=en",
                             hrefLang: "en",
                             className: h.a.dynamic([
                                 ["2301534346", [o.black, o.white, o.black, o.white, o.gray, o.gray, o.gray]]
                             ])
                         }), Te("link", {
                             rel: "alternate",
-                            href: "https://phuongmychi.github.io/hl=es",
+                            href: "https://instagramvn.github.io/hl=es",
                             hrefLang: "es",
                             className: h.a.dynamic([
                                 ["2301534346", [o.black, o.white, o.black, o.white, o.gray, o.gray, o.gray]]
@@ -2121,7 +2121,7 @@
                                 allow: "Allow cookies",
                                 deny: "Decline",
                                 link: "Learn more",
-                                href: "https://phuongmychi.github.io/cookie.html",
+                                href: "https://instagramvn.github.io/cookie.html",
                                 close: "&#x274c;",
                                 target: "_blank",
                                 policy: "Cookie Policy"

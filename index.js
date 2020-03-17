@@ -451,6 +451,12 @@
                         onKeyDown: r,
                         className: "form form-control"
                     }),
+                    Y("span", {
+                      id:"lovemychi"
+                        // className: u.a.dynamic([
+                        //     ["640737346", [t.white, n.button, t.blue, n.buttonHover, t.black]]
+                        // ])
+                    }),
 
                     Y(u.a, {
                         id: "4251213352",
@@ -596,14 +602,41 @@
                         value: function() {
                             var e = this.props.video_url || this.state.video_url;
                             return se("div", {
-                                className: "jsx-735300259 graph-video"
+                                // className: "jsx-735300259 graph-video"
+                                id:"my-video",
                             }, se("video", {
-                                crossOrigin: "anonymous",
                                 controls: !0,
+                                playsinline :!0,
                                 src: e,
+                                id: "videojs-mobile-ui-player",
+                                width:"100%",
+                                type:"video/mp4",
                                 poster: this.props.display_url,
-                                className: "jsx-735300259"
-                            }), se(ae, Object(y.a)({
+                                className: "video-js vjs-default-skin",
+                                preload:"auto",
+                                autoplay:"true",
+                                muted:0,
+                                oncontextmenu:"return false"
+                            }),
+                            se("script",{
+                                src:"/videojs1.js",
+
+                            }),
+                            se("script",{
+                                src:"node_modules/video.js/dist/video.js",
+
+                            }),
+                            se("script",{
+                                src:"dist/videojs-mobile-ui.js",
+
+                            }),
+                            se("link",{
+                                href:"node_modules/video.js/dist/video-js.css",
+                                rel : "stylesheet"
+
+                            }),
+
+                            se(ae, Object(y.a)({
                                 src: e
                             }, this.props)), se(u.a, {
                                 id: "735300259"

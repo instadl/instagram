@@ -449,10 +449,10 @@
                         value: t,
                         onChange: n,
                         onKeyDown: r,
-                        className: u.a.dynamic([
-                            ["4251213352", [s.input, i.gray, c.size.regular, i.placeholder, s.inputHover]]
-                        ])
-                    }), Y(u.a, {
+                        className: "form form-control"
+                    }),
+
+                    Y(u.a, {
                         id: "4251213352",
                         dynamic: [s.input, i.gray, c.size.regular, i.placeholder, s.inputHover]
                     }, [".input.__jsx-style-dynamic-selector{padding:30px 0;background-color:rgba(255,255,255,0.9);}", "input.__jsx-style-dynamic-selector{background-color:transparent;border:0;border-radius:9px;box-shadow:".concat(s.input, ";color:").concat(i.gray, ";font-size:").concat(c.size.regular, ";line-height:1;outline:none;padding:20px;text-align:center;-webkit-transition:0.3s ease-out all;transition:0.3s ease-out all;width:100%;}"), "input.__jsx-style-dynamic-selector::-webkit-input-placeholder{color:".concat(i.placeholder, ";}"), "input.__jsx-style-dynamic-selector::-moz-placeholder{color:".concat(i.placeholder, ";}"), "input.__jsx-style-dynamic-selector:-ms-input-placeholder{color:".concat(i.placeholder, ";}"), "input.__jsx-style-dynamic-selector::placeholder{color:".concat(i.placeholder, ";}"), "input.__jsx-style-dynamic-selector:hover{box-shadow:".concat(s.inputHover, ";}")]))
@@ -1213,14 +1213,16 @@
                                     ["197309663", [r.gray, a.weight.light]]
                                 ]) + " description"
                             }, Ae("h1", {
-                                className: u.a.dynamic([
-                                    ["197309663", [r.gray, a.weight.light]]
-                                ])
+                                className: "alert alert-info"
                             }, t("h1")), Ae(Ne.a, null, t("p1"))), Ae("div", {
                                 className: u.a.dynamic([
                                     ["197309663", [r.gray, a.weight.light]]
-                                ]) + " ads"
-                            }, Ae(Q, {
+                                ]) + " embed-responsive embed-responsive-16by9"
+                            },Ae("iframe", {
+                                    src :"https://www.youtube.com/embed/videoseries?list=UUiox3pl9bimZrznTg4uPR3w",
+                                    className : "embed-responsive-item",
+                                  }),
+                            Ae(Q, {
                                 dataAdSlot: "3096229027",
                                 dataAdFormat: "auto"
                             })), "GraphImage" === s.type && Ae(ie, s), "GraphVideo" === s.type && Ae(ce, s), "GraphSidecar" === s.type && s.sidecar.map((function(e) {

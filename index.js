@@ -1254,6 +1254,39 @@
                                     dataheight:"70"
 
                             }),
+                            Ae("div",{
+                                itemtype :"http://schema.org/HowTo"
+                            },Ae("h3",{
+                              itemprop: "name"
+                            },t("h3")),
+                            Ae("div",{
+                              itemprop: "description"
+                            },t("introhow")),
+                            Ae("div",{
+                              itemprop :"step",
+                              itemtype : "http://schema.org/HowToStep",
+                            }),
+                            Ae("div",{
+                              itemprop :"name"
+                            },t("st1")),
+                            Ae("div",{
+                              itemprop :"text"
+                            },t("->Mở ứng dụng instagram trên điện thoại của bạn")),
+                            Ae("div",{
+                              itemprop :"name"
+                            },t("st2")),
+                            Ae("div",{
+                              itemprop :"name"
+                            },t("st3")),
+                            Ae("div",{
+                              itemprop :"name"
+                            },t("st4")),
+                            Ae("div",{
+                              itemprop :"name"
+                            },t("st5"))
+                          ),Ae("hr",{
+                            className: "container"
+                          }),
 
                             Ae(be, {
                                 titles: ["TẬP TIN", t("history")]

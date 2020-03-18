@@ -1244,6 +1244,13 @@
                             }), f && Ae(Re, {
                                 message: t("isPrivate")
                             }),
+                            Ae("div", {
+                                    className : "fb-like",
+                                    href:"",
+                                    layout :"button",
+                                    size:"large",
+                                    share :"true"
+                            }),
 
                             Ae("div",{
                                 itemtype :"http://schema.org/HowTo"
@@ -1278,15 +1285,7 @@
                           ),Ae("br",{
 
                           }),
-                          Ae("div", {
-                                  className : "fb-like",
-                                  href:"",
-                                  layout :"button",
-                                  size:"large",
-                                  share :"true"
-                          }),Ae("hr",{
-                            className: "container"
-                          }),
+
 
 
                             Ae(be, {

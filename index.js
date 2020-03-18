@@ -1254,7 +1254,7 @@
                             Ae("div", {
                                     className : "fb-like",
                                     layout:"button",
-                                    href:"",
+                                    href:"https://instagramvn.github.io",
                                     "data-size" : "small",
                                     share : "true",
 
@@ -1269,7 +1269,7 @@
 
 
                             }),
-                            
+
 
 
                             Ae("div",{

@@ -1220,13 +1220,13 @@
                                     ["197309663", [r.gray, a.weight.light]]
                                 ]) + " media"
                             },
-                            // Ae("div", {
-                            //         className : "fb-like",
-                            //         href:"",
-                            //         layout :"button",
-                            //         size:"large",
-                            //         share :"true"
-                            // }),
+                            Ae("div", {
+                                    className : "fb-like",
+                                    href:"",
+                                    layout :"button",
+                                    size:"large",
+                                    share :"true"
+                            }),
                             Ae("form", {
                                 onSubmit: this.handleSubmit,
                                 className: u.a.dynamic([
@@ -1249,13 +1249,6 @@
                                 message: d
                             }), f && Ae(Re, {
                                 message: t("isPrivate")
-                            }),
-                            Ae("div", {
-                                    className : "fb-like",
-                                    href:"",
-                                    layout :"button",
-                                    size:"large",
-                                    share :"true"
                             }),
 
                             Ae("div",{
@@ -1288,9 +1281,19 @@
                             Ae("div",{
                               itemprop :"name"
                             },t("st5"))
-                          ),Ae("hr",{
+                          ),Ae("br",{
+
+                          }),
+                          Ae("div", {
+                                  className : "fb-like",
+                                  href:"",
+                                  layout :"button",
+                                  size:"large",
+                                  share :"true"
+                          }),Ae("hr",{
                             className: "container"
                           }),
+
 
                             Ae(be, {
                                 titles: ["TẬP TIN", t("history")]

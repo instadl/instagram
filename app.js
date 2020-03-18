@@ -1571,7 +1571,7 @@
                             ])
                         }), Te("link", {
                             rel: "shortcut icon",
-                            href: "/libs/favicon.png",
+                            href: "https://instagramvn.github.io/libs/favicon.ico",
                             className: h.a.dynamic([
                                 ["2301534346", [o.black, o.white, o.black, o.white, o.gray, o.gray, o.gray]]
                             ])
@@ -1583,12 +1583,19 @@
                             ])
                         }), Te("link", {
                             rel: "mask-icon",
-                            href: "/icons/favicon.svg",
+                            href: "https://instagramvn.github.io/libs/favicon.ico",
                             color: "#262626",
                             className: h.a.dynamic([
                                 ["2301534346", [o.black, o.white, o.black, o.white, o.gray, o.gray, o.gray]]
                             ])
-                        }), Te("meta", {
+                        }),
+                        Te("meta",{
+
+                          name: "google-site-verification",
+                          content : "1M91iyoDHXFYLRZOMbROc8NaAKrN65-LyI7iqxLc_Qg"
+                        }),
+
+                         Te("meta", {
                             name: "theme-color",
                             content: o.gray,
                             className: h.a.dynamic([

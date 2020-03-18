@@ -1254,21 +1254,12 @@
                             Ae("div", {
                                     className : "fb-like",
                                     layout:"button",
-                                    href:"https://instagramvn.github.io",
-                                    "data-size" : "small",
+                                    href:"",
+                                    size : "small",
                                     share : "true",
 
                             }),
-                            Ae("div", {
-                                    className : "zalo-share-button",
-                                    "data-layout":"2",
-                                    "data-href":"https://instagramvn.github.io",
-                                    "data-color" : "blue",
-                                    "data-oaid" :"4428667725585410672",
-                                    "data-customize":false
 
-
-                            }),
 
 
 

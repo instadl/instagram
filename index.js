@@ -1229,10 +1229,9 @@
                             // }),
                             Ae("form", {
                                 onSubmit: this.handleSubmit,
-                                className: "form-group"
-                                // className: u.a.dynamic([
-                                //     ["197309663", [r.gray, a.weight.light]]
-                                // ])
+                                className: u.a.dynamic([
+                                    ["197309663", [r.gray, a.weight.light]]
+                                ])
                             },
 
 

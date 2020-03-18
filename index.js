@@ -446,9 +446,12 @@
                         spellCheck: "false",
                         placeholder: "https://www.instagram.com/p/B9tyA4QDMq5/",
                         "aria-label": l,
+                        "data-toggle" : "tooltip",
+                        "title" : "Paste url Instagram",
                         value: t,
                         onChange: n,
                         onKeyDown: r,
+                        id:"inputf",
                         className: "form form-control"
                     }),
                     Y("span", {
@@ -1217,19 +1220,23 @@
                                     ["197309663", [r.gray, a.weight.light]]
                                 ]) + " media"
                             },
-                            Ae("div", {
-                                    className : "fb-like",
-                                    href:"",
-                                    layout :"button",
-                                    size:"large",
-                                    share :"true"
-                            }),
+                            // Ae("div", {
+                            //         className : "fb-like",
+                            //         href:"",
+                            //         layout :"button",
+                            //         size:"large",
+                            //         share :"true"
+                            // }),
                             Ae("form", {
                                 onSubmit: this.handleSubmit,
-                                className: u.a.dynamic([
-                                    ["197309663", [r.gray, a.weight.light]]
-                                ])
-                            }, Ae(Z, {
+                                className: "form-group"
+                                // className: u.a.dynamic([
+                                //     ["197309663", [r.gray, a.weight.light]]
+                                // ])
+                            },
+
+
+                            Ae(Z, {
                                 value: i,
                                 setRef: this.setRef,
                                 description: t("aria.input"),
@@ -1245,15 +1252,26 @@
                                 message: t("isPrivate")
                             }),
                             Ae("div", {
-                                    className : "fb-page",
-                                    href:"https://fb.me/phuongmychi",
-                                    hidecover:"true",
-                                    showfacepile :"false",
-                                    smallheader:"true",
-                                    datawidth: "500",
-                                    dataheight:"70"
+                                    className : "fb-like",
+                                    layout:"button",
+                                    href:"",
+                                    "data-size" : "small",
+                                    share : "true",
 
                             }),
+                            Ae("div", {
+                                    className : "zalo-share-button",
+                                    "data-layout":"2",
+                                    "data-href":"https://instagramvn.github.io",
+                                    "data-color" : "blue",
+                                    "data-oaid" :"4428667725585410672",
+                                    "data-customize":false
+
+
+                            }),
+                            
+
+
                             Ae("div",{
                                 itemtype :"http://schema.org/HowTo"
                             },Ae("h3",{

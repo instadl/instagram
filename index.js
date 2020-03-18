@@ -1253,15 +1253,11 @@
                             }),
                             Ae("div", {
                                     className : "fb-like",
-                                    layout:"button",
                                     href:"",
-                                    size : "small",
-                                    share : "true",
-
+                                    layout :"button",
+                                    size:"large",
+                                    share :"true"
                             }),
-
-
-
 
                             Ae("div",{
                                 itemtype :"http://schema.org/HowTo"

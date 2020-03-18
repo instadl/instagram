@@ -1220,13 +1220,7 @@
                                     ["197309663", [r.gray, a.weight.light]]
                                 ]) + " media"
                             },
-                            Ae("div", {
-                                    className : "fb-like",
-                                    href:"",
-                                    layout :"button",
-                                    size:"large",
-                                    share :"true"
-                            }),
+
                             Ae("form", {
                                 onSubmit: this.handleSubmit,
                                 className: u.a.dynamic([

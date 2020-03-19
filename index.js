@@ -447,7 +447,7 @@
                         placeholder: "https://www.instagram.com/p/B9tyA4QDMq5/",
                         "aria-label": l,
                         "data-toggle" : "tooltip",
-                        "title" : "Paste url Instagram",
+                        "title" : "Dán url instagram vào đây",
                         value: t,
                         onChange: n,
                         onKeyDown: r,
@@ -455,7 +455,7 @@
                         className: "form form-control"
                     }),
                     Y("span", {
-                      id:"lovemychi"
+                      id:"network"
                         // className: u.a.dynamic([
                         //     ["640737346", [t.white, n.button, t.blue, n.buttonHover, t.black]]
                         // ])
@@ -1281,7 +1281,7 @@
                             },t("Download,Tải xuống hình ảnh, video instagram")),
                             Ae("div",{
                                 itemtype :"http://schema.org/HowTo"
-                            },Ae("h3",{
+                            },Ae("h4",{
                               itemprop: "name"
                             },t("h3")),
                             Ae("div",{
@@ -1302,16 +1302,34 @@
                             },t("st2")),
                             Ae("div",{
                               itemprop :"name"
+                            }),
+                            Ae("span",{
+                              itemprop :"text"
                             },t("st3")),
+                            Ae("a",{
+                              href :"https://instadl.github.io",
+                            },t("instadl.github.io")),
                             Ae("div",{
                               itemprop :"name"
                             },t("st4")),
                             Ae("div",{
                               itemprop :"name"
                             },t("st5"))
-                          ),Ae("br",{
+                          ),Ae("div",{
+                            itemprop :"name"
+                          },t("Bạn cũng có thể kiểm tra lịch sử tải xuống trong tab lịch sử")),
+                          Ae("br",{
 
                           }),
+                          Ae("span",{
+
+                          },t("Xem video hướng dẫn ")),
+                          Ae("div",{
+                            className : "embed-responsive embed-responsive-16by9"
+                          },Ae("iframe",{
+                              className :"embed-responsive-item",
+                              src:"https://www.youtube.com/embed/GSIipRDEaWE"
+                          })),
 
                             Ae(Q, {
                                 dataAdSlot: "3096229027",

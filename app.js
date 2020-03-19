@@ -1270,18 +1270,18 @@
                 ue = (ce.changeLanguage.bind(ce), ce.cloneInstance.bind(ce), ce.createInstance.bind(ce), ce.dir.bind(ce), ce.exists.bind(ce), ce.getFixedT.bind(ce), ce.init.bind(ce), ce.loadLanguages.bind(ce), ce.loadNamespaces.bind(ce), ce.loadResources.bind(ce), ce.off.bind(ce), ce.on.bind(ce), ce.setDefaultNamespace.bind(ce), ce.t.bind(ce), ce.use.bind(ce), {
                     en: {
                         translation: {
-                            title: "InstagramVN| Download images,Videos TV Instagram Online",
+                            title: "Instadl| Download images,Videos TV Instagram Online",
                             description: "Tải xuống và lưu trữ hình ảnh, video từ instagram. Chỉ cần dán link hình ảnh, video, tv  hoặc tên người dùng instagram, bạn có thể tải xuống 1 cách dễ dàng.",
                             h1: "Tải xuống & Lưu trữ hình ảnh video Instagram trực tuyến",
                             p1: "Chỉ cần dán link hình ảnh, video, tv  hoặc tên người dùng instagram, bạn có thể tải xuống 1 cách dễ dàng",
                             download: "Tải xuống",
                             h3:"Cách tải hình ảnh,video instagram Online",
                             introhow: "Hướng dẫn tải hình ảnh, video instagram:",
-                            st1: "* Vào ứng dụng Instagam",
-                            st2: "* Sao chép liên kết bất kỳ mà bạn muốn",
-                            st3: "* Vô trang : https://instagramvn.github.io",
-                            st4: "* Dán nội dung vào ô trống",
-                            st5: "* Bấm tải xuống hình,video ảnh mà bạn thích",
+                            st1: "Bước 1: Vào ứng dụng Instagam",
+                            st2: "Bước 2: Sao chép liên kết bất kỳ mà bạn muốn",
+                            st3: "Bước 3: Vào trang : https://instadl.github.io",
+                            st4: "Bước 4: Dán nội dung vào ô trống",
+                            st5: "Bước 5 : Bấm tải xuống hình,video ảnh mà bạn thích",
                             history: "Lịch sử",
                             emptyHistory: "Lịch sử tải xuống của bạn ở đây: ",
                             isPrivate: "Tài khoản này là riêng tư",
@@ -1427,14 +1427,14 @@
                             ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]]
                         ])
                     }, i("home")), Oe(me.a, {
-                        href: "https://instagramvn.github.io/privacy.html",
+                        href: "https://instadl.github.io/privacy.html",
                     }, Oe("a", {
                       target: "_blank",
                         className: h.a.dynamic([
                             ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]]
                         ])
                     }, i("privacy"))), Oe("a", {
-                        href: "https://instagramvn.github.io/instagram/term-use-instagram.html",
+                        href: "https://instadl.github.io/instagram/term-use-instagram.html",
                         target: "_blank",
                         className: h.a.dynamic([
                             ["1455347606", [n.darkGray, o.size.small, n.gray, n.gray, n.darkGray, o.size.small]]
@@ -1565,25 +1565,25 @@
                             ])
                         }), Te("link", {
                             rel: "manifest",
-                            href: "https://instagramvn.github.io/manifest.json",
+                            href: "https://instadl.github.io/manifest.json",
                             className: h.a.dynamic([
                                 ["2301534346", [o.black, o.white, o.black, o.white, o.gray, o.gray, o.gray]]
                             ])
                         }), Te("link", {
                             rel: "shortcut icon",
-                            href: "https://instagramvn.github.io/libs/favicon.ico",
+                            href: "https://instadl.github.io/libs/favicon.ico",
                             className: h.a.dynamic([
                                 ["2301534346", [o.black, o.white, o.black, o.white, o.gray, o.gray, o.gray]]
                             ])
                         }), Te("link", {
                             rel: "apple-touch-icon",
-                            href: "https://instagramvn.github.io/libs/android-icon-144x144.png",
+                            href: "https://instadl.github.io/libs/android-icon-144x144.png",
                             className: h.a.dynamic([
                                 ["2301534346", [o.black, o.white, o.black, o.white, o.gray, o.gray, o.gray]]
                             ])
                         }), Te("link", {
                             rel: "mask-icon",
-                            href: "https://instagramvn.github.io/libs/favicon.ico",
+                            href: "https://instadl.github.io/libs/favicon.ico",
                             color: "#262626",
                             className: h.a.dynamic([
                                 ["2301534346", [o.black, o.white, o.black, o.white, o.gray, o.gray, o.gray]]
@@ -1603,21 +1603,21 @@
                             ])
                         }), Te("link", {
                             rel: "alternate",
-                            href: "https://instagramvn.github.io/",
+                            href: "https://instadl.github.io/",
                             hrefLang: "x-default",
                             className: h.a.dynamic([
                                 ["2301534346", [o.black, o.white, o.black, o.white, o.gray, o.gray, o.gray]]
                             ])
                         }), Te("link", {
                             rel: "alternate",
-                            href: "https://instagramvn.github.io/?hl=en",
+                            href: "https://instadl.github.io/?hl=en",
                             hrefLang: "en",
                             className: h.a.dynamic([
                                 ["2301534346", [o.black, o.white, o.black, o.white, o.gray, o.gray, o.gray]]
                             ])
                         }), Te("link", {
                             rel: "alternate",
-                            href: "https://instagramvn.github.io/hl=es",
+                            href: "https://instadl.github.io/hl=es",
                             hrefLang: "es",
                             className: h.a.dynamic([
                                 ["2301534346", [o.black, o.white, o.black, o.white, o.gray, o.gray, o.gray]]
@@ -1667,7 +1667,7 @@
                                 t = this.props.lng;
                             e.set("lng", t, {
                                 path: "/"
-                            }), "serviceWorker" in navigator && navigator.serviceWorker.register("http://instagramvn.github.io/sw.js"), window.addEventListener("beforeinstallprompt", (function(e) {
+                            }), "serviceWorker" in navigator && navigator.serviceWorker.register("http://instadl.github.io/sw.js"), window.addEventListener("beforeinstallprompt", (function(e) {
                                 e.userChoice.then((function(e) {
                                     var t = e.outcome;
                                     Object(fe.b)("event", t, {
@@ -2135,7 +2135,7 @@
                                 allow: "Allow cookies",
                                 deny: "Decline",
                                 link: "Learn more",
-                                href: "https://instagramvn.github.io/cookie.html",
+                                href: "https://instadl.github.io/cookie.html",
                                 close: "&#x274c;",
                                 target: "_blank",
                                 policy: "Cookie Policy"

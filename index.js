@@ -1244,6 +1244,7 @@
                             }), f && Ae(Re, {
                                 message: t("isPrivate")
                             }),
+
                             Ae("div", {
                                     className : "fb-like",
                                     href:"",
@@ -1251,7 +1252,33 @@
                                     size:"large",
                                     share :"true"
                             }),
+                            Ae("hr",{
 
+                            }),
+                            Ae(be, {
+                                titles: ["TẬP TIN", t("history")]
+                            }, Ae("div", {
+                                className: u.a.dynamic([
+                                    ["197309663", [r.gray, a.weight.light]]
+                                ])
+                            }, s.type || l.profile_pic_url_hd ? null : Ae("article", {
+                                className: u.a.dynamic([
+                                    ["197309663", [r.gray, a.weight.light]]
+                                ]) + " description"
+                            },
+
+
+                            // Ae("h1", {
+                            //     className: "des"
+                            // }, t("h1")), Ae(Ne.a, null, t("p1"))), Ae("div", {
+                            //     className: u.a.dynamic([
+                            //         ["197309663", [r.gray, a.weight.light]]
+                            //     ]) + " container-fluid"
+                            // },
+
+                            Ae("h1",{
+
+                            },t("Download,Tải xuống hình ảnh, video instagram")),
                             Ae("div",{
                                 itemtype :"http://schema.org/HowTo"
                             },Ae("h3",{
@@ -1285,29 +1312,6 @@
                           ),Ae("br",{
 
                           }),
-
-
-
-                            Ae(be, {
-                                titles: ["TẬP TIN", t("history")]
-                            }, Ae("div", {
-                                className: u.a.dynamic([
-                                    ["197309663", [r.gray, a.weight.light]]
-                                ])
-                            }, s.type || l.profile_pic_url_hd ? null : Ae("article", {
-                                className: u.a.dynamic([
-                                    ["197309663", [r.gray, a.weight.light]]
-                                ]) + " description"
-                            },
-
-
-                            Ae("h1", {
-                                className: "des"
-                            }, t("h1")), Ae(Ne.a, null, t("p1"))), Ae("div", {
-                                className: u.a.dynamic([
-                                    ["197309663", [r.gray, a.weight.light]]
-                                ]) + " container-fluid"
-                            },
 
                             Ae(Q, {
                                 dataAdSlot: "3096229027",

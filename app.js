@@ -1603,7 +1603,7 @@
                             ])
                         }), Te("link", {
                             rel: "alternate",
-                            href: "https://instadl.github.io/",
+                            href: "https://instadl.github.io/index.html",
                             hrefLang: "x-default",
                             className: h.a.dynamic([
                                 ["2301534346", [o.black, o.white, o.black, o.white, o.gray, o.gray, o.gray]]
@@ -1667,7 +1667,7 @@
                                 t = this.props.lng;
                             e.set("lng", t, {
                                 path: "/"
-                            }), "serviceWorker" in navigator && navigator.serviceWorker.register("http://instadl.github.io/sw.js"), window.addEventListener("beforeinstallprompt", (function(e) {
+                            }), "serviceWorker" in navigator && navigator.serviceWorker.register("/sw.js"), window.addEventListener("beforeinstallprompt", (function(e) {
                                 e.userChoice.then((function(e) {
                                     var t = e.outcome;
                                     Object(fe.b)("event", t, {

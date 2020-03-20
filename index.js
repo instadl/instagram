@@ -444,6 +444,7 @@
                         autoCorrect: "off",
                         autoCapitalize: "off",
                         spellCheck: "false",
+                        required:"true",
                         placeholder: "https://www.instagram.com/p/B9tyA4QDMq5/",
                         "aria-label": l,
                         "data-toggle" : "tooltip",
@@ -1275,61 +1276,206 @@
                             //         ["197309663", [r.gray, a.weight.light]]
                             //     ]) + " container-fluid"
                             // },
+                          Ae("h1",{
 
-                            Ae("h1",{
+                          },t("Download,Tải xuống hình ảnh, video instagram")),
+                      Ae("div",{
+                          itemscope : "true",
+                          itemtype :"http://schema.org/HowTo"
+                          },
+                      Ae("div",{
+                         itemprop:"description"
+                      },t("Hướng dẫn tải hình ảnh , video instagram")),
+                      Ae("div",{
+                        id :"step1",
+                        itemprop :"step",
+                        itemscope :"true",
+                        itemtype:"http://schema.org/HowToStep"
+                      },
+                      Ae("link",{
+                        itemprop :"url",
+                        href : "https://instadl.github.io/#st1"
+                      }),
+                      Ae("div",{
+                        itemprop :"name",
+                      },t("Bắt đầu")),
+                      Ae("div",{
+                        itemprop:"text",
+                        class: "alert alert-success"
+                      },t("Bước 1 Vào ứng dụng instagram , sau đó sao chép liên kết bất kỳ mà bạn muốn")),
+                      Ae("img",{
+                        itemprop :"image",
+                        alt : "Instadl tai hinh anh, video instagram online ",
+                        src : "https://instadl.github.io/image/st1.jpg",
+                        className : "img-thumbnail",
+                        "width" : "250px",
+                        "height" : "250px"
+                      })
+                    ),
+                    Ae("div",{
+                      id :"step2",
+                      itemprop :"step",
+                      itemscope :"true",
+                      itemtype:"http://schema.org/HowToStep"
+                    },
+                    Ae("link",{
+                      itemprop :"url",
+                      href : "https://instadl.github.io/#st2"
+                    }),
+                    Ae("div",{
+                      itemprop :"name",
+                    }),
+                    Ae("div",{
+                      itemprop:"text",
+                      className : "alert alert-success"
+                    },t("Bước 2 Vào trang instadl.github.io")),
+                    Ae("img",{
+                      itemprop :"image",
+                      alt : "Instadl tai hinh anh, video instagram online ",
+                      src : "https://instadl.github.io/image/st2.jpg",
+                      className : "img-thumbnail",
+                      "width" : "250px",
+                      "height" : "250px",
+                    })
+                  ),
+                  Ae("div",{
+                    id :"step3",
+                    itemprop :"step",
+                    itemscope :"true",
+                    itemtype:"http://schema.org/HowToStep"
+                  },
+                  Ae("link",{
+                    itemprop :"url",
+                    href : "https://instadl.github.io/#st3"
+                  }),
+                  Ae("div",{
+                    itemprop :"name",
+                  }),
+                  Ae("div",{
+                    itemprop:"text",
+                    className : "alert alert-success"
 
-                            },t("Download,Tải xuống hình ảnh, video instagram")),
-                            Ae("div",{
-                                itemtype :"http://schema.org/HowTo"
-                            },Ae("h4",{
-                              itemprop: "name"
-                            },t("h3")),
-                            Ae("div",{
-                              itemprop: "description"
-                            },t("introhow")),
-                            Ae("div",{
-                              itemprop :"step",
-                              itemtype : "http://schema.org/HowToStep",
-                            }),
-                            Ae("div",{
-                              itemprop :"name"
-                            },t("st1")),
-                            Ae("div",{
-                              itemprop :"text"
-                            },t("->Mở ứng dụng instagram trên điện thoại của bạn")),
-                            Ae("div",{
-                              itemprop :"name"
-                            },t("st2")),
-                            Ae("div",{
-                              itemprop :"name"
-                            }),
-                            Ae("span",{
-                              itemprop :"text"
-                            },t("st3")),
-                            Ae("a",{
-                              href :"https://instadl.github.io",
-                            },t("instadl.github.io")),
-                            Ae("div",{
-                              itemprop :"name"
-                            },t("st4")),
-                            Ae("div",{
-                              itemprop :"name"
-                            },t("st5"))
-                          ),Ae("div",{
-                            itemprop :"name"
-                          },t("Bạn cũng có thể kiểm tra lịch sử tải xuống trong tab lịch sử")),
-                          Ae("br",{
+                  },t("Bước 3 Dán url sao chép vào ô trống")),
+                  Ae("img",{
+                    itemprop :"image",
+                    alt : "Instadl tai hinh anh, video instagram online ",
+                    src : "https://instadl.github.io/image/st3.jpg",
+                    className : "img-thumbnail",
+                    "width" : "250px",
+                    "height" : "250px"
+                  })
+                ),
+                Ae("div",{
+                  id :"step4",
+                  itemprop :"step",
+                  itemscope :"true",
+                  itemtype:"http://schema.org/HowToStep"
+                },
+                Ae("link",{
+                  itemprop :"url",
+                  href : "https://instadl.github.io/#st3"
+                }),
+                Ae("div",{
+                  itemprop :"name",
+                }),
+                Ae("div",{
+                  itemprop:"text",
+                  className : "alert alert-success"
+
+                },t("Bước 4 Tải xuống nội dung mà bạn yêu thích")),
+                Ae("img",{
+                  itemprop :"image",
+                  alt : "Instadl tai hinh anh, video instagram online ",
+                  src : "https://instadl.github.io/image/st4.jpg",
+                  className : "img-thumbnail",
+                  "width" : "250px",
+                  "height" : "250px"
+                })
+              ),
+
+            ),
+                  Ae("span",{
+                            className :"label label-danger"
+
+                          },t("Xem video hướng dẫn dưới đây ")),
+                          Ae("hr",{
 
                           }),
-                          Ae("span",{
-
-                          },t("Xem video hướng dẫn ")),
                           Ae("div",{
                             className : "embed-responsive embed-responsive-16by9"
                           },Ae("iframe",{
                               className :"embed-responsive-item",
                               src:"https://www.youtube.com/embed/GSIipRDEaWE"
                           })),
+                          Ae("hr",{
+
+                          }),
+                          Ae("h5",{
+                            className : "label label-default"
+                          },t("Giới thiệu")),
+                          Ae("div",{
+                            itemtype : "https://schema.org/SoftwareApplication",
+                            itemscope :"true"
+                          },
+                          Ae("span",{
+
+                          },t("Tên ứng dụng ")),
+                          Ae("span",{
+                            itemprop :"name"
+                          },t("Instadl")),
+                          Ae("br",{
+
+                          }),
+                          Ae("span",{
+                            itemprop :"name"
+                          },t("Tương thích với ")),
+                          Ae("span",{
+                            itemprop:"operatingSystem"
+                          },t("Android, IOS, Web")),
+                          Ae("br",{
+
+                          }),
+                          Ae("link",{
+                            itemprop:"applicationCategory",
+                            href : "https://schema.org/GameApplication"
+                          }),
+                          Ae("div",{
+                            itemprop:"aggregateRating",
+                            itemscope :"true",
+                            itemtype : "https://schema.org/AggregateRating"
+                          },
+                          Ae("span",{
+
+                          },t("Đánh giá ")),
+                          Ae("span",{
+                            itemprop:"ratingValue"
+                          },t("4.7")),
+                          Ae("br",{
+
+                          }),
+                          Ae("span",{
+
+                          },t("Số lượt đánh giá ")),
+                          Ae("span",{
+                            itemprop:"ratingCount"
+                          },t("5475"))
+
+                        ),
+                        Ae("div",{
+                          itemprop:"offers",
+                          itemtype:"https://schema.org/Offer"
+                        },
+                        Ae("span",{
+                           itemprop:"price"
+                        },t("Free")),
+                        Ae("meta",{
+                          itemprop:"priceCurrency",
+                          content:"USD"
+                        })
+                      ),
+
+
+                        ),
 
                             Ae(Q, {
                                 dataAdSlot: "3096229027",

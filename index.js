@@ -1278,14 +1278,14 @@
                             // },
                           Ae("h1",{
 
-                          },t("Download,Tải xuống hình ảnh, video instagram")),
+                          },t("Download,Tải xuống hình ảnh, video, IGTV instagram online")),
                       Ae("div",{
                           itemscope : "true",
                           itemtype :"http://schema.org/HowTo"
                           },
                       Ae("div",{
                          itemprop:"description"
-                      },t("Hướng dẫn tải hình ảnh , video instagram")),
+                      },t("Hướng dẫn tải hình ảnh , video, IGTV Instagram")),
                       Ae("div",{
                         id :"step1",
                         itemprop :"step",

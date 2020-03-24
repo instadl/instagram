@@ -300,7 +300,7 @@
                                             p.next = 6;
                                             break
                                         }
-                                        return n(new Error(" Url instagram không hợp lệ")), p.abrupt("return");
+                                        return n(new Error("Đó không phải là một Url instagram hợp lệ")), p.abrupt("return");
                                     case 6:
                                         return !1, r = window, a = r.URL, o = new a(e), i = o.pathname, s = i.split("/"), c = O(s, 3), u = c[2], p.next = 12, N.a.awrap(L()("https://www.instagram.com/p/".concat(u, "/?__a=1")));
                                     case 12:
@@ -971,7 +971,7 @@
                         className: u.a.dynamic([
                             ["3476756486", [r.softRed, a.size.large, a.weight.bold, a.size.small]]
                         ]) + " oh-no"
-                    }, "Oh no!"), Se("span", {
+                    }, "Ôi không!"), Se("span", {
                         className: u.a.dynamic([
                             ["3476756486", [r.softRed, a.size.large, a.weight.bold, a.size.small]]
                         ]) + " message"

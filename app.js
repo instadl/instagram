@@ -1270,10 +1270,10 @@
                 ue = (ce.changeLanguage.bind(ce), ce.cloneInstance.bind(ce), ce.createInstance.bind(ce), ce.dir.bind(ce), ce.exists.bind(ce), ce.getFixedT.bind(ce), ce.init.bind(ce), ce.loadLanguages.bind(ce), ce.loadNamespaces.bind(ce), ce.loadResources.bind(ce), ce.off.bind(ce), ce.on.bind(ce), ce.setDefaultNamespace.bind(ce), ce.t.bind(ce), ce.use.bind(ce), {
                     en: {
                         translation: {
-                            title: "Instadl| Download images,Videos TV Instagram Online",
+                            title: "Instadl| Download images,Videos IGTV Instagram Online",
                             description: "Tải xuống và lưu trữ hình ảnh, video từ instagram. Chỉ cần dán link hình ảnh, video, tv  hoặc tên người dùng instagram, bạn có thể tải xuống 1 cách dễ dàng.",
                             h1: "Tải xuống & Lưu trữ hình ảnh video Instagram trực tuyến",
-                            p1: "Chỉ cần dán link hình ảnh, video, tv  hoặc tên người dùng instagram, bạn có thể tải xuống 1 cách dễ dàng",
+                            p1: "Chỉ cần dán link hình ảnh, video, igtv  hoặc tên người dùng instagram, bạn có thể tải xuống 1 cách dễ dàng",
                             download: "Tải xuống",
                             h3:"Cách tải hình ảnh,video instagram Online",
                             introhow: "Hướng dẫn tải hình ảnh, video instagram:",

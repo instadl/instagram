@@ -618,7 +618,7 @@
                                 poster: this.props.display_url,
                                 className: "video-js vjs-default-skin",
                                 preload:"auto",
-                                autoplay:"true",
+                                autoplay:"false",
                                 muted:0,
                                 oncontextmenu:"return false"
                             }),
